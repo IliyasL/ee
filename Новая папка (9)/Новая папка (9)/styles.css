@@ -1,0 +1,399 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+hr {
+    display: none
+}
+
+.a {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.block {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+    border: 1px solid gray;
+    height: 200px;
+    font-size: 20px;
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 690px) {
+    .header1 {
+        height: 100px;
+        width: 768px !important;
+        display: flex;
+        background-color: #E1EDE6;
+        align-items: center;
+        color: black;
+    }
+    .logo {
+        width: 143px;
+        height: 35px;
+        margin-left: 39px !important;
+    }
+    .navigation {
+        color: black;
+        display: flex;
+        text-align: center;
+        margin-left: 101px !important;
+    }
+    .text1 {
+        width: fit-content;
+        height: 23px;
+    }
+    .text2 {
+        width: 76px;
+        height: 21px;
+        margin-left: 60px;
+    }
+    .text3 {
+        width: 49px;
+        height: 21px;
+        margin-left: 60px;
+    }
+    .shopicon {
+        width: 24px;
+        height: 21px;
+        margin-left: 60px;
+    }
+    .card {
+        background-color: white;
+        width: 768px !important;
+        height: 380px !important;
+        display: flex;
+        align-items: center;
+        gap: 53px;
+        padding: 0px !important;
+        border-radius: 16px;
+    }
+    .Image {
+        width: 330px !important;
+        height: 380px !important;
+        margin-left: 39px !important;
+    }
+    .title {
+        font-weight: 500;
+        font-size: 40px !important;
+        line-height: 100%;
+        color: black;
+        margin-bottom: 20px !important;
+        width: 330px !important;
+    }
+    .subtitle {
+        font-weight: 400 !important;
+        color: gray;
+        font-size: 18px !important;
+        line-height: 150% !important;
+        margin-bottom: 40px !important;
+        width: 330px !important;
+    }
+    .button {
+        border: 1px solid #598D66;
+        color: #598D66;
+        background-color: transparent;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        width: 210px !important;
+        height: 60px !important;
+    }
+}
+
+@media (max-width: 510px) {
+    hr {
+        display: block;
+        width: 510px;
+        margin: auto;
+    }
+    .header1 {
+        height: 123px !important;
+        width: 576px !important;
+        display: flex;
+        background-color: #E1EDE6;
+        align-items: center;
+        color: black;
+        flex-direction: column;
+    }
+    .logo {
+        width: 143px;
+        height: 35px;
+        margin-left: 39px !important;
+        margin-top: 16px !important;
+
+    }
+    .navigation {
+        color: black;
+        display: flex;
+        text-align: center;
+        margin-left: 33px !important;
+        margin-bottom: 16px !important;
+    }
+    .text1 {
+        width: fit-content;
+        height: 23px;
+    }
+    .text2 {
+        width: 76px;
+        height: 21px;
+        margin-left: 60px;
+    }
+    .text3 {
+        width: 49px;
+        height: 21px;
+        margin-left: 60px;
+    }
+    .shopicon {
+        width: 24px;
+        height: 21px;
+        margin-left: 60px;
+        margin-right: 15px !important;
+    }
+    .card {
+        background-color: white;
+        width: 510px !important;
+        height: 239px !important;
+        display: flex;
+        align-items: center;
+        gap: 53px;
+        padding: 0px !important;
+        border-radius: 16px;
+        margin-top: 50px;
+    }
+    .Image {
+        width: 195px !important;
+        height: 239px !important;
+        margin-left: 33px !important;
+    }
+    .title {
+        font-weight: 500;
+        font-size: 40px !important;
+        line-height: 100%;
+        color: black;
+        margin-bottom: 20px !important;
+        width: 285px !important;
+        margin-left: 15px !important;
+    }
+    .subtitle {
+        font-weight: 500 !important;
+        color: gray;
+        font-size: 16px !important;
+        line-height: 150% !important;
+        margin-bottom: 40px !important;
+        width: 285px !important;
+        margin-left: 15px !important;
+    }
+    .button {
+        border: 1px solid #598D66;
+        color: #598D66;
+        background-color: transparent;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        width: 178px !important;
+        height: 50px !important;
+        margin-left: 15px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .header1 {
+        height: 130px !important;
+        width: 320px !important;
+        display: flex;
+        background-color: white !important;
+        align-items: center;
+        color: black;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo {
+        width: 143px;
+        height: 35px;
+        margin-left: 0px !important;
+        margin-top: 17px !important;
+        margin-bottom: 16px !important;
+    }
+    .navigation div {
+        display: none;
+    }
+    .navigation {
+        color: gray;
+        display: flex;
+        text-align: center;
+        width: 320px !important;
+        height: 62px !important;
+        justify-content: space-between;
+        background-color: #E1EDE6 !important;
+        align-items: center;
+        margin-left: 0px !important;
+    }
+    .Image {
+        display: none;
+    }
+    .shopicon {
+        width: 24px;
+        height: 21px;
+        margin-left: 236px;
+    }
+    .card {
+        background-color: white;
+        width: 290px !important;
+        height: 233px !important;
+        display: flex;
+        align-items: center;
+        gap: 53px;
+        padding: 0px !important;
+        border-radius: 16px;
+    }
+    .title {
+        font-weight: 500px;
+        font-size: 30px !important;
+        line-height: 100%;
+        color: black;
+        margin-bottom: 20px !important;
+        width: 285px !important;
+    }
+    .subtitle {
+        font-weight: 400 !important;
+        color: gray;
+        font-size: 18px !important;
+        line-height: 150% !important;
+        margin-bottom: 40px !important;
+        width: 290px !important;
+    }
+    .button {
+        border: 1px solid #598D66;
+        color: #598D66;
+        background-color: transparent;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        width: 210px !important;
+        height: 60px !important;
+    }
+    hr {
+        display: none;
+    }
+    .a {
+        width: 21px !important;
+        height: 17px !important;
+        margin-left: 15px !important;
+        display: block;
+    }
+}
+
+.header1 {
+    height: 100px;
+    width: 1440px;
+    display: flex;
+    background-color: #E1EDE6;
+    align-items: center;
+    color: black;
+}
+
+.logo {
+    width: 143px;
+    height: 35px;
+    margin-left: 165px;
+}
+
+.navigation {
+    color: black;
+    display: flex;
+    text-align: center;
+    margin-left: 495px;
+}
+
+.text1 {
+    width: fit-content;
+    height: 23px;
+}
+
+.text2 {
+    width: 84px;
+    height: 23px;
+    margin-left: 60px;
+}
+
+.text3 {
+    width: 54px;
+    height: 23px;
+    margin-left: 60px;
+}
+
+.shopicon {
+    width: 24px;
+    height: 24px;
+    margin-left: 60px;
+}
+
+.card {
+    background-color: white;
+    width: 1440px;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding: 40px;
+    border-radius: 16px;
+}
+
+.Image {
+    margin-left: 165px;
+    width: 540px;
+    height: 620px;
+}
+
+.card-content {}
+
+.title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 110.00000000000001%;
+    color: black;
+    margin-bottom: 20px;
+    width: 540px;
+}
+
+.subtitle {
+    font-weight: 400;
+    color: gray;
+    font-size: 18px;
+    line-height: 33px;
+    margin-bottom: 60px;
+    width: 540px;
+}
+
+.button {
+    border: 1px solid #598D66;
+    color: #598D66;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    width: 225px;
+    height: 65px;
+}
+
+span {
+    color: #598D66;
+}
